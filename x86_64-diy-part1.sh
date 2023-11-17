@@ -24,3 +24,8 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >> feeds.c
 echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main' >> feeds.conf.default
 echo 'src-git openclash https://github.com/vernesong/OpenClash' >> feeds.conf.default
 echo 'src-git ssrplus https://github.com/maxlicheng/luci-app-ssr-plus' >> feeds.conf.default
+
+# Add iStoreOS packages
+echo 'src-git istore https://github.com/linkease/istore-packages' >> feeds.conf.default
+echo 'src-git nas https://github.com/linkease/nas-packages' >> feeds.conf.default
+echo 'src-git nasui https://github.com/linkease/nas-packages-luci' >> feeds.conf.default
