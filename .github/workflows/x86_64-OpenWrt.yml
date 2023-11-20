@@ -90,7 +90,7 @@ jobs:
     - name: Setup Go version
       uses: actions/setup-go@v4
       with:
-      go-version: 'stable'
+        go-version: 'stable'
 
     - name: Generate Toolchain Config
       run: |
@@ -271,7 +271,7 @@ jobs:
     - name: Setup Go version
       uses: actions/setup-go@v4
       with:
-      go-version: 'stable'
+        go-version: 'stable'
 
     - name: Prepare Toolchain Image
       run: |
